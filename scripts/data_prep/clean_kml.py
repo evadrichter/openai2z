@@ -73,8 +73,8 @@ gglyphs_points = gpd.GeoDataFrame(point_features, geometry="geometry", crs="EPSG
 gglyphs_shapes = gpd.GeoDataFrame(shape_features, geometry="geometry", crs="EPSG:4326")
 
 # save in folder
-points_path = os.path.join(base_dir, "openai2z/data/processed/geoglyph_sites_points.kml")
-shapes_path = os.path.join(base_dir, "openai2z/data/processed/geoglyph_sites_shapes.kml")
+points_path = os.path.join(base_dir, "openai2z/data/processed/geoglyph_sites_points.geojson")
+shapes_path = os.path.join(base_dir, "openai2z/data/processed/geoglyph_sites_shapes.geojson")
 
 gglyphs_points.to_file(points_path, driver="GeoJSON")
 gglyphs_shapes.to_file(shapes_path, driver="GeoJSON")
