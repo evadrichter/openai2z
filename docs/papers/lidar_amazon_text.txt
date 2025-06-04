@@ -1,0 +1,571 @@
+International Journal of Remote Sensing
+ISSN: 0143-1161 (Print) 1366-5901 (Online) Journal homepage: www.tandfonline.com/journals/tres20
+A UAV–lidar system to map Amazonian rainforest
+and its ancient landscape transformations
+S. Khan, L. Aragão & J. Iriarte
+To cite this article: S. Khan, L. Aragão & J. Iriarte (2017) A UAV–lidar system to map Amazonian
+rainforest and its ancient landscape transformations, International Journal of Remote Sensing,
+38:8-10, 2313-2330, DOI: 10.1080/01431161.2017.1295486
+To link to this article:  https://doi.org/10.1080/01431161.2017.1295486
+Published online: 28 Feb 2017.
+Submit your article to this journal 
+Article views: 1542
+View related articles 
+View Crossmark data
+Citing articles: 18 View citing articles 
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=tres20
+A UAV–lidar system to map Amazonian rainforest and its
+ancient landscape transformations
+S. Khana, L. Aragãob and J. Iriartea
+aDepartment of Archaeology, University of Exeter, Exeter, UK; bRemote Sensing Division, National Institute
+for Space Research (INPE), São Jose dos Campos, Brazil
+ABSTRACT
+In this article, a robust unmanned aerial remote-sensing system,
+equipped with a survey-grade Lidar scanner and a multispectral
+camera system, assembled to study pre-Columbian Amazonian
+archaeology is presented. The data collected from this system
+will be utilized in a novel inter-disciplinary way by combining
+these data with in situ data collected by archaeologists, archae-
+botanists, paleoecologists, soil scientists, and landscape ecologists
+to study the nature and scale of the impact of pre-Columbian
+humans in transforming the landscapes of Amazonian rainforest.
+The outputs of this research will also inform future policy on the
+conservation, sustainability, and ecological state of the forest.
+ARTICLE HISTORY
+Received 31 July 2016
+Accepted 9 February 2017
+1. Introduction
+Amazonia, the largest tropical rainforest of the world, plays a global role in regulating
+climate, sequestering carbon dioxide, and preserving biodiversity. Its protection and the
+development of sustainable land-use practices in Amazonia are of global signiﬁcance
+(Lewis 2006; Bonan 2008). In order to make informed policy decisions on sustainable
+Amazonian futures, it is necessary to develop a sound understanding of the historical
+role of humans in shaping Amazonian landscapes and to what extent Amazonian forests
+were resilient to historical disturbances.
+The nature and scale of pre-Columbian human impact in shaping Amazonian land-
+scapes is a highly debated topic in New World archaeology, paleoecology and conserva-
+tion. Until recently, the widely accepted concept was of a noble-savage who lived in
+harmony with the forest and had minimal impact on it (Ronnenberg, Bradshaw, and
+Marquet 2002; Meggers 1973; Steward 1963; Willey 1966). On the other hand, the
+opposite view hypothesizes the nonexistence of virgin/natural forest. It postulates that
+the rainforest was thriving with inhabitants distributed in social groups throughout the
+Amazon, who actively managed the forest, and extensively modiﬁed the ecosystems
+resulting in an anthropogenic and domesticated landscape. Recent archaeological studies
+propose that Amazonian landscape was transformed by sizeable, regionally-organized
+societies at a scale larger than previously suggested. This hypothesis is based on the
+discovery of domesticated landscape features like raised-ﬁeld agriculture, highly
+CONTACT S. Khan
+salman451@gmail.com
+Department of Archaeology, University of Exeter, Exeter, UK
+INTERNATIONAL JOURNAL OF REMOTE SENSING, 2017
+VOL. 38, NOS. 8–10, 2313–2330
+http://dx.doi.org/10.1080/01431161.2017.1295486
+© 2017 Informa UK Limited, trading as Taylor & Francis Group
+modiﬁed anthropogenic soils called Amazonian Dark Earths (ADEs), hundreds of massive
+geometrically patterned earthworks called geoglyphs and ring-ditches, clusters of vil-
+lages, well-planned mound complexes as well as the dominance of useful plant species
+in proximity of certain rivers (Denevan 2001; Balée and Erickson 2006; Schaan 2013;
+Rostain 2012; Levis et al. 2012), and is challenging the concept of Amazonia as a virgin
+wilderness. Many of these ancient landscape features have been revealed as a result of
+deforestation activities hinting that it is highly likely that many such features are still
+hidden under the forest waiting to be discovered (see Figure 1).
+Traditionally, archaeological surveys have been done manually, but recently aerial
+remote sensing using high resolution lidar has been regarded as a more practical and
+cost-eﬀective option. Further, environmental remote sensing using small unmanned
+aerial vehicles (UAVs) instead of manned aerial surveys has become a viable alternative
+(Whitehead et al. 2014). Unlike manual survey, airborne survey has the advantage of
+covering far greater area in a much shorter time and also the ability to record data over
+inaccessible remote regions of the Amazon rainforest. Lidar works on the same principle
+as Radar and Sonar: instead of using microwaves and sound waves, respectively, to
+calculate distance to a target, airborne lidar uses harmless laser pulses in infrared
+wavelengths to calculate the distance to the terrain below. Combining with ancillary
+data such as GPS measurements, aircraft attitude values, and lidar scan angles, etc. These
+terrain distances can be represented as a high resolution three-dimensional (3D) point
+cloud in World coordinates. In the context of Amazonian archaeology, the unique
+beneﬁt of lidar manifests in its ability to penetrate through forest and reach the ground
+below. In this respect, lidar is often regarded as having the capability to see through
+vegetation, and can be used to identify previously unknown archaeological features
+(Prufer, Thompson, and Kennett 2015; Chase et al. 2011; Evans et al. 2013; Daukantas
+2014). In practice, if there is a reasonably high density of lidar ground points, a 3D
+representation of the ground surface can be reproduced by connecting tiny planar
+surfaces representing neighbouring points, e.g. the triangulated irregular network (TIN)
+(Renslow, for Photogrammetry, and Sensing 2012). The resulting ground surfaces can be
+visually analysed in software tools by archaeologists and other experts to identify
+Figure 1. Geoglyph partially revealed due to deforestation.
+2314
+S. KHAN ET AL.
+potential archaeological features, which can be later veriﬁed in ground survey.
+Moreover, lidar also facilitates studying the structure of forest from which very useful
+forest inventory metrics can then be derived. In this regard, the structure of forest over
+archaeological and non-archaeological sites can also be compared in order to under-
+stand ecological signatures of archaeological sites. Recently, the developments and
+improvements in small UAVs technology has also enabled the use of these lower cost
+platforms for producing very accurate and high resolution point cloud over forests
+(Wallace et al. 2012; Harwin and Lucieer 2012).
+This article introduces a state-of-the-art unmanned aerial remote-sensing system
+assembled to document archaeology in Amazonian rainforest in order to assess the
+nature and scale of landscape transformations in Amazonia by pre-Columbian humans. It
+consists of a ﬁxed-wing UAV, a survey-grade lidar scanner, and a low-cost 5-band camera
+system. The remainder of the article is organized as follows. Section 2 demonstrates the
+potential of lidar technology in studying Amazonian archaeology. Section 3 presents the
+unmanned aerial remote-sensing system including the UAV, its payloads, and the
+installation of the payloads in the UAV. Section 4 shows the ﬁrst data collected using
+the remote-sensing system over diﬀerent types of terrains. Section 5 proves that using
+the proposed remote-sensing system under forest features can be easily identiﬁed.
+Finally, Section 6 lists the conclusions and future plans of the research.
+2. Potential of lidar in Amazonian archaeology
+Considering a lidar scanner with a ﬁxed laser wavelength and power, the density of
+ground points on a given area depends on the type of thickness of the vegetation, the
+measurement rate of the lidar scanner and the total data acquisition time.1 The con-
+trollable factors are only the latter two. The higher the laser measurement rate and the
+longer the acquisition time the higher the density of the ground points for a given area.
+The minimum density of ground points required to identify an archaeological feature
+depends on its size. However, there is no strict rule of computing this minimum number
+and it can be more or less empirically determined.
+In order to demonstrate the potential of using airborne lidar data to detect archaeology
+under the Amazon rainforest, a vegetation removal algorithm was applied to lidar data
+collected in Brazilian Amazon under the Sustainable Landscapes Brazil (Paisagens
+Sustentáveis Brasil) Project – SLBP. One such data, called the Bonal data, refers to the
+survey carried out in Rio Branco municipality, Acre state, Brazil. The Bonal data was
+acquired on 16 September 2013 using the Optech Orion laser scanner operating from
+an altitude of 900 m with a ﬂight-line overlap of 65% covering a total area of 600 ha in 14
+data tiles. The average point density was calculated to be approximately 33.39 points m–2.
+The application of vegetation removal algorithm on one tile of Bonal data is depicted
+in Figures 2(a)–(c). Figure 2(a) shows a Google Earth image of Bonal data tile demarked
+in yellow. The lidar data of the Bonal data tile, colour coded by height, are shown in
+Figure 2(b), while Figure 2(c) shows the ground surface formed by connecting the
+neighbouring ground points using a TIN after removing the non-ground/vegetation
+points. A close inspection of the ground surface reveals two rectangular features in
+close proximity to each other, marked by yellow circular boundaries. It is highly likely
+that these are geoglyphs, especially the larger, more prominent one, owing to the
+INTERNATIONAL JOURNAL OF REMOTE SENSING
+2315
+presence of many geoglyphs nearby exposed due to deforestation. However, this is yet
+to be conﬁrmed by physically visiting these sites.
+3. Remote-sensing system
+The remote-sensing system consists of the NAURU 500B ﬁxed wing UAV system ﬁtted
+with the survey-grade VUX1–UAV lidar scanner and a 5-band camera system. The system
+is explained in more detail in the following sections.
+3.1. NAURU 500B ﬁxed-wing UAV
+The NAURU 500B is a ﬁxed-wing UAV developed by a Brazilian company, Xmobots. It is a
+fuel-run UAV with a 55cc two-stroke engine. It has a wing span of 3.6 m, a length of
+1.8 m from nose to tail, and a maximum take-oﬀweight of about 25 kg. It can carry
+approximately 5.5 kg of payload weight with an autonomy of around 2.5 h and has a
+stall speed of 31 knots. It requires a runway of about 80 m × 10 m for safe take-oﬀand
+landing. NAURU has an autopilot system which can automatically execute a ﬂight
+Figure 2. Airborne lidar data collected in Bonal, Rio Branco municipality, Acre, Brazil reveals under-
+forest geoglyphs. (a) A data tile from Bonal site – Google Earth image. (b) Colour-coded lidar data
+tile. (c) Vegetation removal algorithm reveals possible geoglyphs.
+2316
+S. KHAN ET AL.
+mission once the UAV has taken oﬀmanually. After completion of the mission, the UAV
+circles around the base station before it is manually landed by a remote control pilot.
+The UAV also includes a ground control station (GCS) and a ground data terminal (GDT)
+with an antenna that automatically tracks the aircraft. The GCS receives the ﬂight
+telemetry, including the navigation
+camera video, through the GDT to continuously monitor the mission, and also control
+the aircraft from a single user terminal. The NAURU 500B UAV, GCS, and GDT are shown
+in Figure 3, where various components of the system are appropriately labelled. The
+electronics of the aircraft are enclosed inside the fuselage where the heatsink is located.
+The electronic boards include the auto pilot and navigation board, router board, com-
+munications board, and VUX lidar connection board as shown in Figure 4.
+3.2. Payloads: VUX1–UAV lidar
+The VUX1–UAV by RIEGL is arguably the ﬁrst survey-grade lidar scanner designed for
+UAV applications. It has a class 1, eye safe laser with a maximum eﬀective measurement
+rate of 500,000 measurements/sec, a ﬁeld of view of 330°, and a maximum operating
+ﬂight altitude of 350 m. It is a light-weight and compact equipment weighing about
+3.85 kg and measuring L 227 × W 180 × H 125 mm in dimensions without the cooling
+fans. It requires a voltage input of 11–32 V DC and typically 60 W power. Due to its high
+measurement rate it can produce a dense point cloud, e.g. at 380 kHz pulse repetition
+rate, ﬂying at a speed of 50 knots, and a range to target of 250 m, the point density is
+approximately 10 points m–2 with a decimetre level accuracy. The point density can be
+further increased by increasing the percentage overlap between ﬂight lines. The survey-
+grade APX-15 UAV INS/GNSS system by Applanix has been internally integrated into the
+VUX1–UAV scanner to reduce the positional errors to decimetre level. It is connected to
+the G5Ant-42AT1 L1/L2 GNSS antenna developed by Antcom. The GNSS antenna is ﬁxed
+inside the NAURU airframe. The VUX1–UAV lidar scanner is shown in Figure 5(a). The
+Figure 3. NAURU 500B ﬁxed-wing UAV by Xmobots (wing span of 3.6 m and a nose to tail length of 1.8 m).
+INTERNATIONAL JOURNAL OF REMOTE SENSING
+2317
+VUX1–UAV on-board NAURU is controlled using a workstation connected to the scanner
+through a wireless TCP/IP communication link provided by the GDT.
+3.3. Multispectral cameras
+Two low-cost multispectral Canon Powershot cameras (16 Megapixel) are also installed
+in the NAURU UAV. The dimensions of each camera are L 20.07 × W 93.22 × H 56.87 mm.
+Together they form a ﬁve-band multispectral system with one camera capturing in blue–
+green–near-infrared (NIR) 680–800 nm, while the other camera capturing in green–red–
+Figure 4. NAURU Electronics (width of the fuselage – top to bottom in the image – is about 19 cm).
+Figure 5. Nauru payloads. (a) VUX1–UAV lidar scanner by RIEGL Laser Measurement Systems GmbH
+(dimensions without cooling fan – L 227 × W 180 × H 125 mm). (b) Canon PowerShot Elph110HS
+Camera (dimensions L 20.07 × W 93.22 × H 56.87 mm).
+2318
+S. KHAN ET AL.
+NIR 800–900 nm. The camera settings are adjusted to suit aerial photography, e.g. the
+focus is set to inﬁnity, shutter speed and aperture conditions are set for the conditions,
+etc. The cameras are installed in the fuselage of NAURU and are simultaneously trig-
+gered to take photos such that a pre-deﬁned frontal overlap between adjacent photos is
+maintained. Similarly, the adjacent ﬂight lines are also planned in such a way that the
+desired lateral overlap is achieved. Figure 5(b) shows one of the two identical multi-
+spectral cameras.
+3.4. Payload installation
+The two payloads of NAURU: VUX1 and cameras are securely screwed in NAURU’s
+payload lid, which is then carefully inserted into the fuselage of NAURU from the
+bottom, and is subsequently secured in its place with 10 screws. Figures 6(a)–(d) show
+the installation of the payloads. Figures 6(a) and (b) depict the installation of the
+payloads in the payload lid from bottom and top perspectives, respectively. Figure 6
+(b) also shows the aperture openings for the cameras and the VUX1 laser beam/glass
+protection lid which is controlled using a servo mechanism. During take-oﬀand landing
+the servo closes the protection lid. Only during data acquisition the lid is kept open.
+Figure 6(c) presents the actual insertion of payload lid inside NAURU fuselage from the
+Figure 6. VUX1–UAV lidar scanner and cameras installed inside NAURU fuselage. (a) Installation of
+payloads in the lid (bottom view). (b) Installation of payloads in the lid (top view). (c) Insertion of
+payload lid in NAURU fuselage. (d) 3D CAD model of payload installation and ﬁeld of view.
+INTERNATIONAL JOURNAL OF REMOTE SENSING
+2319
+bottom, while Figure 6(d) shows the end result of the payload installation procedure in a
+3D computer aided design (CAD) model diagram with the ﬁnal location of the cameras
+and VUX1 inside NAURU. The laser ﬁeld of view (FOV) is also shown in the ﬁgure, and has
+been measured to be approximately 90°. Two batteries of 6200 mAh each supply power
+to the system. One battery serves as the power source for NAURU’s autopilot navigation
+system and the cameras while the other battery powers VUX1–lidar scanner.
+4. Data acquisition campaigns
+Lidar data collection using the NAURU-VUX lidar system was thoroughly tested in the
+last week of June, 2016. All ﬂights were performed in a test area called Santana next to
+the city of São Carlos, SP, Brazil. Santana is primarily a sugar-cane agricultural area, but it
+also has forest patches and some gable-roof houses. Moreover, the runway is about
+18 m wide and more than a 100 m long making it a well-suited test area. Four successful
+lidar data acquisition ﬂights were carried out: one ﬂight each on 24 and 27 of June, and
+two longer ﬂights on the 29 June 2016. All diﬀerent laser pulse repetition rates (PRR) of
+50, 100, 200, 300, 380, and 550 kHz were tested at a ﬂying altitude of 300 m above
+ground level (AGL). The lidar scan angles were restricted to 35° on either side of nadir,
+i.e. a total of 70°. Flying at 300 m AGL the ground swath is approximately 420 m. The
+aircraft ﬂew at an average velocity of 58 knots (108 km h–1). In order to maintain an even
+distribution of lidar points in along-track and across-track directions, the speed of the
+rotating laser mirror and the angular increment for sending laser pulses were adjusted
+accordingly. The weather conditions were very dry with clear skies, good visibility, and a
+wind speed ranging roughly between 4 and 10 knots.
+The ﬂights were planned using the Xmobot’s ﬂight planning software called Mission
+Planning. This software provides a satellite map based user interface to mark GPS way-
+points over the area to be surveyed, and also allows the altitude of these waypoints to be
+adjusted. The ﬁrst ﬁve waypoints are default ones, namely: (i) Go_Home, (ii) Take-Oﬀ_1, (iii)
+Take-Oﬀ_2, (iv) Landing_1, and (v) Landing_2. The Go_Home waypoint deﬁnes the GPS
+location at an altitude of 300 m AGL around which the UAV automatically circles before
+initiating (or after completing) an automatic mission. Take-oﬀ_1 and Take-oﬀ_2 represent
+the starting and ending points on the runway for the take-oﬀprocedures. While Take-oﬀ_1
+is located at the ground, Take-oﬀ_2 is at an altitude of 20 m above ground. NAURU-500B
+UAV aircraft always takes-oﬀmanually controlled by a remote pilot, so the take-oﬀ
+waypoints are not used. The landing procedure, on the other hand, is manual under
+normal circumstances, however in case of a problem in remotely piloting the aircraft, the
+landing is performed by automatically opening the UAV’s parachute. In this case, the UAV
+ﬁrst circles around Landing_1 while reducing its altitude to 100 m AGL. When the 100 m
+AGL is achieved, it goes to Landing_2 and opens the parachute. The remaining waypoints
+are sequentially numbered, and are placed by the user such that the survey area is fully
+covered by lidar swath on the ground, with a user-selectable lateral overlap between
+adjacent ﬂight lines to further increase lidar point density.
+Figures 7(a) and (b) show the ﬂight planning for a lidar mission collected on 29 June
+2016 over an area in Santana, São Carlos, São Paulo state, Brazil. The area of interest was
+chosen to test the system in a variety of terrain and includes urban, agricultural, and
+forested regions as shown in Figure 7(a). The mission GPS waypoints are shown by blue
+2320
+S. KHAN ET AL.
+squares, the ﬂight lines by white dashed lines, while the ﬁve default waypoints have
+their distinct icons as shown in Figure 7(b). The real ﬂight trajectory obtained from the
+actual position and orientation (POS) data is shown in Figure 8.
+The ﬂights are operated by ﬁrst selecting a suitable space next to the runway where
+the GDT, GCS, and the UAV can be mounted. Ideally, the space should be free from
+Figure 7. Nauru-500B UAV mission planning. (a) Mission plan for lidar data collected in Santana on
+29 June 2016 over an area containing a mixture of urban, agricultural, and forested regions. (b) A
+zoomed-in view of the runway depicting the location of ﬁve default GPS waypoints.
+INTERNATIONAL JOURNAL OF REMOTE SENSING
+2321
+obstacles, safe, and at high vantage point. This is especially crucial for the seamless
+operation of the GDT, which transfers the UAV telemetry and navigation camera video to
+the GCS using the communication downlink. Once the equipment has been setup, a
+comprehensive checklist is followed to ensure that each part of the UAV and the
+supporting equipment (GCS and GDT) is correctly mounted and functioning appropri-
+ately. During this check, the intended ﬂight mission is also uploaded into the aircraft’s
+on board computer. After the successful completion of the checklist, the UAV’s engine is
+started at which point the pilot is responsible for the take-oﬀ. After take-oﬀthe pilot ﬂies
+the UAV to attain an altitude of 300 m AGL, while an operator at the GCS continuously
+monitors the real-time telemetric information and informs the pilot of the altitude and
+airspeed. Once the required altitude has been attained, the control of the UAV is passed
+to its autopilot. At this point, the UAV’s mode of operation is Go Home, in which it circles
+around the Go_Home waypoint. The operator continuously monitors the telemetry while
+the UAV is in Go Home mode, and if all information is normal the operator starts the
+automatic mission after three circles around Go_Home waypoint. At this point, the
+remote pilot also switches oﬀthe remote control to conserve battery for landing. The
+UAV automatically follows the mission waypoints in sequence while the operator con-
+tinuously monitors the telemetry to ensure that the UAV subsystems are operating
+perfectly. The lidar scanner is turned on and oﬀby a separate operator who uses a
+notebook to control the VUX–1UAV lidar, while the communication between the note-
+book and the scanner is managed by the UAV’s communication link. The operator starts
+Figure 8. Real ﬂight trajectory coloured by timestamp. Blue corresponds to start while red corre-
+sponds to end of the trajectory.
+2322
+S. KHAN ET AL.
+the laser at the start of each ﬂight line and stops it at the end of the line. On mission
+completion, the GCS operator switches the UAV’s mode of operation back to Go Home.
+During Go Home mode the UAV circles around the Go_Home point waiting for the pilot
+to assume back control of the aircraft for manual landing. After successful landing, the
+collected data is promptly downloaded for later processing before switching oﬀall the
+systems.
+In the following, we will present some sample lidar data collected in the aforemen-
+tioned mission. The PRR was ﬁxed at 300 kHz for this acquisition. The ﬁrst study area,
+shown in Figures 9(a)–(c), is the urban area containing sparsely distributed trees, houses,
+and agricultural ﬁelds. Three of the total six ﬂight lines over this area were planned in
+the horizontal direction, while the remaining three were roughly perpendicular to the
+ﬁrst ones. The lateral overlap between consecutive ﬂight lines was conﬁgured to be 80%.
+Figure 9(a) shows the 2D raster view (1 m2 resolution) of the lidar data coloured by
+height. The trees, houses, and ground features are very clearly visible. Figure 9(b) shows
+3D point cloud from one perspective with easily diﬀerentiable terrain features, while
+Figure 9(c) reveals the cross-sectional proﬁle of a narrow area selected in Figure 9(a).
+A little digression is necessary here to explain the misalignment in overlapping lidar
+strips. The boresight calibration models the rotational misalignment (in yaw, pitch, roll
+angles) and positional oﬀset (in X, Y, Z) between the scanner and the IMU/GNSS system.
+The IMU/GNSS system describes the trajectory of the platform by measuring its GNSS
+location and its orientation in terms of the yaw, pitch, and roll angles. At the same time,
+the laser scanner detects the returning pulses at varying scan angles, and records the
+time that the pulses (traveling at the speed of light) take to travel from the scanner to
+the ground and back. The POS data, range to the ground, scan angles, and the boresight
+calibration parameters are then combined to determine the range vectors from the
+aircraft to ground points. Inherent systematic errors in any of these data usually lead to
+Figure 9. Lidar data (coloured by height) collected in Santana on 29 June 2016 over an area
+containing a mixture of houses, trees, and agricultural ﬁelds. (a) 2D-raster view of the data. (b) 3D
+view of a subset of the point cloud. (c) Cross-sectional proﬁle of some houses and trees.
+INTERNATIONAL JOURNAL OF REMOTE SENSING
+2323
+nonlinear rotational and positional errors between overlapping lidar strips (Habib et al.
+2010; Glira, Pfeifer, and Mandlburger 2016). This can be easily observed in man-made
+structures and ﬂat surfaces. Figure 10(a) shows the cross-sectional proﬁle of a house
+with scan data from diﬀerent ﬂight lines shown in distinct colours. The scans from
+diﬀerent ﬂight lines are clearly misaligned from each other. Acknowledging the systema-
+tic errors of the lidar scanner and the IMU/GNSS system as inherent limitation of the
+hardware system, the remaining source of errors can be attributed to the inaccuracies
+(rotational and translational) in boresight calibration.
+We have corrected the misalignment between overlapping strips by applying an
+algorithm which re-aligns the strips by modifying the original trajectory, i.e. the IMU/
+GNSS data. This algorithm is embedded as a routine called RiPRECISION within RIEGL’s
+raw lidar data processing software, RiPROCESS. For brevity, we will present the error
+analysis only for the six overlapping strips over the urban area shown in Figure 7(a). The
+positional corrections to the trajectory, along-track, cross-track, and height are shown in
+Figure 11(a), while the orientation corrections in roll, pitch, and yaw angles of the
+trajectory are shown in Figure 11(b). The trajectory position corrections are negligible
+along- and cross-track, and only evident in height. This is evident in Table 1, which lists
+the statistics of positional corrections. The along- and cross-track corrections are sub-
+millimetre, while the height corrections are of the order of a few centimetres.
+Orientation corrections are less prominent in pitch and yaw and most visible in roll
+angles as also highlighted in Table 2, which shows the orientation correction statistics.
+The roll angle corrections are roughly an order of magnitude greater on the average. The
+corrected POS data can now be used to generate the revised point cloud, which shows
+an improved alignment of the overlapping strips. This is depicted in Figure 10(b), which
+visually shows that the lidar points from diﬀerent lidar strips in the cross-sectional proﬁle
+of the house are much better aligned together after applying the trajectory corrections.
+Figure 10. Scan data alignment after applying positional and rotational adjustments to trajectory
+data. (a) Misaligned lidar scans from separate ﬂights lines. (b) Aligned lidar scans from separate
+ﬂights lines after applying adjustment algorithm.
+2324
+S. KHAN ET AL.
+Let’s return to presenting lidar data collected in the aforementioned mission. Figures
+12(a)–(c) show the lidar data collected at 80% lateral overlap over the forested area with
+a total of six ﬂight lines – three in horizontal and three in vertical direction. Figure 12(a)
+shows the 2D raster view of the forest lidar data coloured by height. The altitude in the
+lower-left corner of the raster is more (red) than that in the upper right corner (blue).
+Figure 12(b) shows a portion of the 3D forest point cloud, while Figure 12(c) displays the
+cross-sectional proﬁle of a narrow selected forested area in Figure 12(a). It can be
+observed in Figures 12(b) and (c) that there are also a lot of ground points, shown in
+dark blue colour, under the forest.
+Figure 11. Trajectory corrections for six ﬂight lines over urban area. (a) Trajectory positional
+corrections. (b) Trajectory orientational corrections.
+Table 1. Statistics of positional corrections.
+Abs. mean (m)
+Rms (m)
+Max (m)
+Along-track
+0.0006
+0.0009
+0.0025
+Cross-track
+0.0006
+0.0008
+0.0025
+Height
+0.0113
+0.0148
+−0.0473
+Total positional deviation
+0.0114
+0.0149
+0.0474
+Table 2. Statistics of orientation corrections.
+Abs. mean (deg)
+Rms (deg)
+Max (deg)
+Roll angle
+0.02325
+0.03447
+0.09099
+Pitch angle
+0.00335
+0.00619
+−0.02182
+Yaw angle
+0.00534
+0.00733
+−0.01673
+Total angular deviation
+0.02498
+0.03578
+0.09329
+INTERNATIONAL JOURNAL OF REMOTE SENSING
+2325
+Figure 13 shows a 2D raster view of some agricultural ﬁelds in Santana area. The
+boundaries of crops, ridges and other linear features are very easily visible in the ﬁgure.
+Moreover, three linear water storage mounds can also be identiﬁed in the centre, while a
+dirt road can be seen in the upper-left (blue) corner of the raster.
+The images acquired from the multispectral cameras had the following issues: (1) they
+were not always properly focused despite setting the focus to inﬁnity and disabling the
+auto-focus function, (2) the two cameras did not always trigger exactly at the same time
+with an average delay of about 20 ms resulting in additional processing to register the
+images between the two cameras. One solution to co-register the images from the two
+cameras is to ﬁrst build the mosaic from the images from each camera and then use
+common features/markers between the mosaics to register them. The possible solutions
+to both of the above issues are currently under investigation. Figures 14(a)–(c) show
+Figure 12. Lidar data (coloured by height) collected in Santana on 29 June 2016 over a forested
+area. (a) 2D-raster view of forested area. (b) 3D view of a subset of the forest point cloud. (c) Cross-
+sectional proﬁle of a selected area.
+Figure 13. 2D-raster view of agricultural ﬁelds with easily identiﬁable patterns and three linear
+mounds for water storage.
+2326
+S. KHAN ET AL.
+sample images captured from the two cameras in a test mission. The upper-left corner
+coordinates are −22.076°, −48.042° while the lower-right ones are −22.075°, −48.048°
+(latitude, longitude).
+5. Potential to discover under-forest features
+The potential of airborne lidar to discover archaeological features under forest was
+demonstrated in Section 2 using data from SLBP. In this section, we will show that the
+lidar data collected using the NAURU/VUX UAV system also has this potential. In Figures
+15(a)–(d), we have depicted forest removal algorithm applied on a few tiles of lidar data
+covering some forested and agricultural areas. The recording PRR was ﬁxed at 300 kHz
+and the data is a collection of six overlapping ﬂight lines with average point density of
+about 12 points m–2. Figure 15(d) shows the tile boundaries of lidar data on a Google
+Earth optical image, while Figure 15(a) shows the 3D lidar point cloud of these tiles
+coloured by height. We used LASTools by rapidlasso GmbH to remove the forest point
+cloud and then connected the resulting ground points using TIN extrapolation to form
+the ground surface shown in Figure 15(b). The bulgy features along the top and bottom
+are artefacts of the triangulation process resulting due to the presence of insuﬃcient
+lidar data and the misclassiﬁcation of vegetation points as ground points. A close
+Figure 14. Sample photos from cameras. (a) Green–red–NIR 800–900 nm camera. (b) Blue–green–
+NIR 680–800nm camera. (c) Corresponding Google Earth Image.
+INTERNATIONAL JOURNAL OF REMOTE SENSING
+2327
+inspection of the ground surface in the red rectangle in Figure 15(b) reveals some linear
+features which could possibly be some pathway hidden underneath the forest. A
+zoomed-in version of the ground surface in the red rectangle is shown in Figure 15(c)
+where the under forest ground features are even more clearly visible. This shows that
+the lidar data collected through the proposed UAV/lidar system can be used to identify
+under forest features.
+6. Conclusions and future work
+Lidar technology has the potential to revolutionize archaeological survey in terms of time,
+resources, and cost. We have demonstrated that just like high-end airborne lidar systems
+our unmanned remote-sensing system is also capable of carrying out detailed lidar survey.
+The proposed system is not only able to study forest structure but also to re-create the
+ground surface below forests to identify archaeological sites and other hidden ground
+features. Visual analyses show that the collected lidar data are of acceptable quality for the
+Figure 15. Lidar data collected at 300 kHz PRR in São Carlos, SP, Brazil reveals under-forest features.
+(a) Lidar point cloud colour-coded by height. (b) Vegetation removal reveals ground features. (c)
+Ground features easily visible when zoomed-in. (d) Corresponding data tiles – Google Earth image.
+2328
+S. KHAN ET AL.
+problem at hand. Moreover, it is quite straightforward to carry out data acquisition
+campaigns over forested areas as long as there is a reasonably sized runway available.
+In the future, we need to ﬁnd an eﬀective solution to assure that the photos from the
+two cameras are focused and we also need to devise a workable method to register the
+photos from the two cameras together. Finally, we are planning to carry out our ﬁrst set
+of data acquisition campaigns in Amazon rainforest in November, 2016.
+Note
+1. Data acquisition time also includes repeated passes over the same area.
+Acknowledgements
+The authors would like to thank European Research Council (ERC) for funding this research under
+the ERC Consolidator grant [616179] titled, Pre-Columbian Amazon Scale Transformations, and also
+express their gratitude to the Brazilian Agricultural Research Corporation (EMBRAPA), the US
+Forest Service, USAID, and the US Department of State for providing additional data.
+Disclosure statement
+No potential conﬂict of interest was reported by the authors.
+Funding
+This work was supported by the European Research Council [Pre-Columbian Amazon Scale
+Transformations].
+References
+Balée, W. L., and C. L. Erickson. 2006. Time and Complexity in Historical Ecology: Studies in the
+Neotropical Lowlands. The historical ecology series. New York: Columbia University Press.
+Bonan, G. B. 2008. “Forests and Climate Change: Forcings, Feedbacks, and the Climate Beneﬁts of
+Forests.” Science 320 (5882): 1444–1449. doi:10.1126/science.1155121.
+Chase, A. F., D. Z. Chase, J. F. Weishampel, J. B. Drake, R. L. Shrestha, K. Clint Slatton, J. J. Awe, and
+W. E. Carter. 2011. “Airborne Lidar, Archaeology, and the Ancient Maya Landscape at Caracol,
+Belize.” Journal of Archaeological Science 38 (2): 387–398. doi:10.1016/j.jas.2010.09.018.
+Daukantas, P. 2014. “Adding a New Dimension: Lidar and Archaeology.” Optics and Photonics News
+25 (1): 32–39. doi:10.1364/OPN.25.1.000032.
+Denevan, W. M. 2001. Cultivated Landscapes of Native Amazonia and the Andes. Oxford
+Geographical and Environmental Studies. Oxford: Oxford University Press.
+Evans, D. H., R. J. Fletcher, C. Pottier, J.-B. Chevance, D. Soutif, B. S. Tan, I. Sokrithy. et al. 2013.
+“Uncovering Archaeological Landscapes at Angkor Using Lidar.” Proceedings of the National
+Academy of Sciences 110 (31): 12595–12600. doi:10.1073/pnas.1306539110.
+Glira, P., N. Pfeifer, and G. Mandlburger. 2016. “Rigorous Strip Adjustment of UAV-Based
+Laserscanning
+Data
+Including
+Time-Dependent
+Correction
+of
+Trajectory
+Errors.”
+Photogrammetric
+Engineering
+and
+Remote
+Sensing
+82
+(12):
+945–954.
+doi:10.14358/
+PERS.82.12.945.
+Habib, A., K. I. Bang, A. P. Kersting, and J. Chow. 2010. “Alternative Methodologies for Lidar System
+Calibration.” Remote Sensing 2 (3): 874–907. doi:10.3390/rs2030874.
+INTERNATIONAL JOURNAL OF REMOTE SENSING
+2329
+Harwin, S., and A. Lucieer. 2012. “Assessing the Accuracy of Georeferenced Point Clouds Produced
+via Multi-View Stereopsis from Unmanned Aerial Vehicle (UAV) Imagery.” Remote Sensing 4 (6):
+1573–1599. doi:10.3390/rs4061573.
+Levis, C., P. F. De Souza, J. Schietti, T. Emilio, J. L. P. V. Pinto, C. R. Clement, and F. R. C. Costa. 2012.
+“Historical Human Footprint on Modern Tree Species Composition in the Purus-Madeira
+Interﬂuve, Central Amazonia.” PLoS One 7: e48559. doi:10.1371/journal.pone.0048559.
+Lewis, S. L. 2006. “Tropical Forests and the Changing Earth System.” Philosophical Transactions of
+the Royal Society of London B: Biological Sciences 361 (1465): 195–210. doi:10.1098/
+rstb.2005.1711.
+Meggers, B. J. 1973. Amazonia: Man and Culture a Counterfeit Paradise. Worlds of man. Chicago, IL:
+Aldine Publishing Company.
+Prufer, K. M., A. E. Thompson, and D. J. Kennett. 2015. “Evaluating Airborne Lidar for Detecting
+Settlements and Modiﬁed Landscapes in Disturbed Tropical Environments at Uxbenká, Belize.”
+Journal of Archaeological Science 57 (Complete): 1–13. doi:10.1016/j.jas.2015.02.013.
+Renslow, M. S., American Society for Photogrammetry, and Remote Sensing. 2012. Manual of
+Airborne Topographic Lidar. Imaging & Geospatial Information Society.
+Ronnenberg, K. L., G. A. Bradshaw, and P. Marquet. 2002. How Landscapes Change: Human
+Disturbance and Ecosystem Fragmentation in the Americas. Ecological Studies.
+Berlin/
+Heidelberg: Springer.
+Rostain, S. 2012. “Between Sierra and Selva: Landscape Transformations in Upper Ecuadorian
+Amazonia.” Quaternary International 249: 31–42. Long-term perspectives on human occupation
+of tropical rainforests. doi:10.1016/j.quaint.2011.08.031.
+Schaan, D. P. 2013. Sacred Geographies of Ancient Amazonia: Historical Ecology of Social Complexity.
+New Frontiers in Historical Ecology. Walnut Creek, CA: Left Coast Press.
+Steward, J. H. 1963. Handbook of South American Indians. New York: Cooper Square Publisher.
+Wallace, L., A. Lucieer, C. Watson, and D. Turner. 2012. “Development of a UAV-Lidar System with
+Application to Forest Inventory.” Remote Sensing 4 (6): 1519–1543. doi:10.3390/rs4061519.
+Whitehead, K., C. H. Hugenholtz, S. Myshak, O. Brown, A. LeClair, A. Tamminga, T. E. Barchyn, B.
+Moorman, and B. Eaton. 2014. “Remote Sensing of the Environment with Small Unmanned
+Aircraft Systems (UASs), Part 2: Scientiﬁc and Commercial Applications.” Journal of Unmanned
+Vehicle Systems 02 (03): 86–102. doi:10.1139/juvs-2014-0007.
+Willey, G. R. 1966. An Introduction to American Archaeology: South America. Prentice-Hall anthro-
+pology series. Upper Saddle River, NJ: Prentice-Hall.
+2330
+S. KHAN ET AL.
